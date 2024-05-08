@@ -1,6 +1,7 @@
 // controllers/subscribersController.js
 "use strict";
 
+const subscriber = require("../models/subscriber");
 // 구독자 모델을 요청
 const Subscriber = require("../models/subscriber");
 
